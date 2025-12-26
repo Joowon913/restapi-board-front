@@ -1,9 +1,9 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import CreatePost from "./CreatePost";
-import PostDetail from "./PostDetail";
-import PostEdit from "./PostEdit";
+import Home from "./page/Home";
+import CreatePost from "./page/CreatePost";
+import PostDetail from "./page/PostDetail";
+import PostEdit from "./page/PostEdit";
 
 function App() {
   return (
